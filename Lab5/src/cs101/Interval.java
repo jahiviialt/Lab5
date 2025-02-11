@@ -3,10 +3,8 @@ package cs101;
 public class Interval {
 
 	// 1. Make a private instance variable `left` of type double
-	private double left;
 
 	// 2. Make a private instance variable `right` of type double
-	private double right;
 
 	// 3. Write a public constructor for the Interval class.
 	// It should take in 2 parameters: a double `left` and a double `right`
