@@ -78,12 +78,12 @@ class IntervalTests {
 		assertEquals(true, b.contains(0.0));
 
 		Interval c = new Interval(0.0, 0.0);
-		assertEquals(true, a.contains(0.0));
-		assertEquals(false, a.contains(0.1));
+		assertEquals(true, c.contains(0.0));
+		assertEquals(false, c.contains(0.1));
 
 		Interval d = new Interval(-44.098, -7.9);
-		assertEquals(true, a.contains(-33.3));
-		assertEquals(false, a.contains(-44.099));
+		assertEquals(true, d.contains(-33.3));
+		assertEquals(false, d.contains(-44.099));
 
 	}
 
