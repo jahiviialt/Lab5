@@ -3,7 +3,8 @@ package cs101;
 public class Main {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+
+		Interval a = new Interval(0.0, 3.0);
 
 	}
 
