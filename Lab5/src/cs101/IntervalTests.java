@@ -62,7 +62,7 @@ class IntervalTests {
 		assertEquals(0.0, c.length());
 
 		Interval d = new Interval(-44.098, -7.9);
-		assertEquals(-36.198, d.length());
+		assertEquals(36.198, d.length());
 	}
 
 	@Test
